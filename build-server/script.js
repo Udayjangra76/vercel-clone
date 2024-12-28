@@ -100,14 +100,9 @@ async function init() {
             console.log('uploaded', filePath)
             await publishLog(`uploaded ${file}`)
         }
-<<<<<<< HEAD
-        publishLog(`Done`)
-        console.log('Done...')
-=======
         await publishLog(`Done`)
         console.log('Done...')
         process.exit(0);
->>>>>>> e67bbe9 (version2)
     })
 }
 
